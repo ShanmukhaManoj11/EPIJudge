@@ -58,21 +58,21 @@ problem_mapping = {
         },
         "4.04 Find a closest integer with the same weight": {
             "C++: closest_int_same_weight.cc": {
-                "passed": 0,
+                "passed": 10000,
                 "total": 10000
             },
             "Java: ClosestIntSameWeight.java": {
                 "passed": 0,
                 "total": 10000
             },
-            "Python: closest_int_same_weight.py": { 
+            "Python: closest_int_same_weight.py": {
                 "passed": 0,
                 "total": 10000
             }
         },
         "4.05 Compute product without arithmetical operators": {
             "C++: primitive_multiply.cc": {
-                "passed": 0,
+                "passed": 10006,
                 "total": 10006
             },
             "Java: PrimitiveMultiply.java": {
@@ -86,7 +86,7 @@ problem_mapping = {
         },
         "4.06 Compute quotient without arithmetical operators": {
             "C++: primitive_divide.cc": {
-                "passed": 0,
+                "passed": 10000,
                 "total": 10000
             },
             "Java: PrimitiveDivide.java": {
@@ -100,7 +100,7 @@ problem_mapping = {
         },
         "4.07 Compute pow(x,y)": {
             "C++: power_x_y.cc": {
-                "passed": 0,
+                "passed": 10002,
                 "total": 10002
             },
             "Java: PowerXY.java": {
@@ -114,7 +114,7 @@ problem_mapping = {
         },
         "4.08 Reverse digits": {
             "C++: reverse_digits.cc": {
-                "passed": 0,
+                "passed": 19952,
                 "total": 19952
             },
             "Java: ReverseDigits.java": {
@@ -128,7 +128,7 @@ problem_mapping = {
         },
         "4.09 Check if a decimal integer is a palindrome": {
             "C++: is_number_palindromic.cc": {
-                "passed": 0,
+                "passed": 20000,
                 "total": 20000
             },
             "Java: IsNumberPalindromic.java": {

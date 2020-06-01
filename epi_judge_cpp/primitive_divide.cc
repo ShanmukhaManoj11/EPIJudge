@@ -1,7 +1,23 @@
 #include "test_framework/generic_test.h"
 int Divide(int x, int y) {
   // TODO - you fill in here.
-  return 0;
+  // BF - subtract y from x while x>=y and number of times this subtraction happens
+  // is the quotient, but O(2^n) where n=32 bits used to represent int
+  // O(n^2) approach
+  int result=0;
+  int power=32;
+  unsigned long long y_power=(static_cast<unsigned long long>(y)<<power);
+  while(x>=y)
+  {
+  	while(y_power>x)
+  	{
+  		y_power >>= 1;
+  		--power;
+  	}
+  	result += (1<<power);
+  	x -= y_power;
+  }
+  return result;
 }
 
 int main(int argc, char* argv[]) {
