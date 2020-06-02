@@ -8,6 +8,20 @@ using std::vector;
 
 void EvenOdd(vector<int>* A_ptr) {
   // TODO - you fill in here.
+  int j=A_ptr->size();
+  int i=0;
+  while(i<j)
+  {
+    if(A_ptr->at(i)%2 == 1)
+    {
+      --j;
+      std::swap(A_ptr->at(i),A_ptr->at(j));
+    }
+    else
+    {
+      ++i;
+    }
+  }
   return;
 }
 void EvenOddWrapper(TimedExecutor& executor, vector<int> A) {
